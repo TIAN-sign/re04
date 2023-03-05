@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+      *{
+        margin: 0%;
+        padding: 0%;
+        text-decoration: none;
+        list-style: none;
+      }  
+      .main{
+        width: 1300px;
+        margin: auto;
+      }
+    .header,.nav,.container,.footer{
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .header{
+        background-color: lavender;
+        padding: 20px;
+        text-align: center;
+       
+    }
+    .nav{
+        background-color: #B0C4DE;
+        width: 100%;
+        
+        
+        
+    }
+    .nav a:hover{
+        background-color: #ccc;
+        color: lavender;
+        
+    }
+    .nav a{
+        color: black;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    body{
+        background-image: url('R-C.jpg');
+    }
+    .lside{
+        width: 200px;
+        float: left;
+
+    }
+    .rside{
+        width: 200px;
+        float: right;
+    }
+    .content{
+        margin: 0px 205px;
+
+    }
+    .lside,.rside,.content{
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .footer{
+        padding: 10px;
+        background-color: #ccc;
+        text-align: center;
+
+    }
+    @media screen and (max-width:700px) {
+        .lside,.rside,.content{
+            width: 100%;
+            margin: 0px;
+        }
+        
+    }
+    .threesolid{
+  font-size: 30px;
+  color:#fefefe;
+  text-shadow:0px 1px 0px #c0c0c0,
+	 0px 2px 0px #b0b0b0,
+	 0px 3px 0px #a0a0a0,
+	 0px 4px 0px #909090,
+	 0px 5px 10px rgba(0, 0, 0, .9);
+     
+}     
+.container{
+    background-color: gold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+           <h1 class="threesolid">one piece</h1>
+           <img src="photos/5.jpg" height="50px">
+        </div>
+        <div class="nav">
+            <a href="index.html">home</a>
+            <a href="personage introduction.html">personage introduction</a>
+            <a href="main content.html">main content</a>
+            <a href="table1.html">role analysis</a>
+           
+            
+
+        </div>
+        <div >
+        <form name="form1" autocomplete="on">
+        <label>name</label><input type="text" name="name" required>
+
+        <br>
+        <label>gender</label> male  <input type="radio" name="rd1" >female<input type="radio" name="rd1">
+        <br>
+        <label>age</label><input type="number" required>
+        <br>
+        <label>mark to one piece(1~10)</label><input type="number" required>
+        <br>
+        <label>suggest</label><input type="text">
+        <br>
+        <button type="submit">submit button</button>
+        
+
+
+
+
+        </form>
+
+        </div>
+    </div>
+</body>
